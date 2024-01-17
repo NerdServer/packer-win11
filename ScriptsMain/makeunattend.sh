@@ -1,0 +1,1 @@
+hdiutil makehybrid -o win11autounattend.iso -hfs -joliet -iso -default-volume-name cidata ../scripts/bios/gui
