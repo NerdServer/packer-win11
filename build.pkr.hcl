@@ -46,7 +46,7 @@ source "proxmox-iso" "win11" {
 }
 
 build {
-  sources = ["source.proxmox-iso.win2022"]
+  sources = ["source.proxmox-iso.win11"]
 
   provisioner "powershell" {
     scripts = ["scripts/setup.ps1"]
