@@ -64,6 +64,11 @@ jobs:
           PKR_VAR_proxmox_url: op://secrets/Terraform/host
           PKR_VAR_username: op://secrets/ProxmoxAPI/username
           PKR_VAR_token: op://secrets/ProxmoxAPI/password
+
+      - name: Run `packer validate`
+        id: validate
+        run: "packer validate -var-file=build.pkrvars.hcl build.pkr.hcl"
+        
           
   build:  
     runs-on: "self-hosted"  
