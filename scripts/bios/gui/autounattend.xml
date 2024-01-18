@@ -22,8 +22,7 @@
             </ImageInstall>
             <UserData>
                 <ProductKey>
-                    <Key>VK7JG-NPHTM-C97JM-9MPGT-3V66T
-</Key>
+                    <Key>D9KN3-YVWPF-W9B8K-FXMMQ-JTYQB</Key>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>
             </UserData>
@@ -546,8 +545,8 @@
         <component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
             <UserAccounts>
                 <AdministratorPassword>
-                    <Value>packer</Value>
-                    <PlainText>true</PlainText>
+                    <Value>cABhAGMAawBlAHIAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcgBQAGEAcwBzAHcAbwByAGQA</Value>
+                    <PlainText>false</PlainText>
                 </AdministratorPassword>
             </UserAccounts>
             <AutoLogon>
@@ -555,8 +554,8 @@
                 <Enabled>true</Enabled>
                 <LogonCount>1</LogonCount>
                 <Password>
-                    <Value>packer</Value>
-                    <PlainText>true</PlainText>
+                    <Value>cABhAGMAawBlAHIAUABhAHMAcwB3AG8AcgBkAA==</Value>
+                    <PlainText>false</PlainText>
                 </Password>
             </AutoLogon>
             <OOBE>
@@ -576,5 +575,5 @@
             </FirstLogonCommands>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:c:/project/iso_files/install.wim#Windows 11 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
