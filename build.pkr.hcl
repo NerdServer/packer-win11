@@ -21,7 +21,7 @@ source "proxmox-iso" "win11" {
   disks {
     disk_size    = "50G"
     storage_pool = "pve-iscsi-lun0"
-    type         = "virtio"
+    type         = "sata"
   }
   insecure_skip_tls_verify = "true"
   iso_checksum             = "${var.iso_checksum}"
@@ -29,7 +29,7 @@ source "proxmox-iso" "win11" {
   memory                   = "${var.memsize}"
   network_adapters {
     bridge = "vmbr0"
-    model  = "virtio"
+    model  = "e1000"
   }
   node             = "${var.node}"
   proxmox_url      = "${var.proxmox_url}"
