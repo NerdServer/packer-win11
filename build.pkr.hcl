@@ -42,7 +42,7 @@ source "proxmox-iso" "win11" {
   winrm_timeout    = "4h"
   winrm_use_ssl    = true
   winrm_username   = "${var.winrm_username}"
-  vm_id            = "9002"
+  vm_id            = "9003"
 }
 
 build {
